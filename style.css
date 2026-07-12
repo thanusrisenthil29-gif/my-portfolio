@@ -885,3 +885,25 @@ section {
         margin-bottom: 10px !important;
     }
 }
+@media screen and (max-width: 768px) {
+
+    .section-buttons {
+        position: static !important;
+        height: auto !important;
+        min-height: 0 !important;
+        margin: 20px 0 !important;
+        padding: 0 !important;
+    }
+
+    #about {
+        min-height: auto !important;
+        height: auto !important;
+        padding-bottom: 20px !important;
+    }
+
+    #skills {
+        min-height: auto !important;
+        height: auto !important;
+        padding-top: 30px !important;
+    }
+}

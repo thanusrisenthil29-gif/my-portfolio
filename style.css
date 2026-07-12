@@ -843,3 +843,16 @@ body.light-mode section {
 
     background-attachment: fixed !important;
 }
+@media screen and (max-width: 768px) {
+
+    section {
+        min-height: auto !important;
+        height: auto !important;
+        padding: 60px 20px !important;
+        margin: 0 !important;
+    }
+
+    .section-buttons {
+        margin-top: 25px !important;
+    }
+}
